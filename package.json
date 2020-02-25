@@ -1,0 +1,21 @@
+{
+    "name": "dukelight",
+    "displayName": "dukelight",
+    "description": "A light theme inspired by eclipse and slack themes",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Duke Light",
+                "uiTheme": "vs",
+                "path": "./themes/Duke Light-color-theme.json"
+            }
+        ]
+    }
+}
