@@ -10,8 +10,16 @@
 		"sideBarSectionHeader.background": "#00283c",
 		"sideBar.foreground":"#DCDEDF",
 
-		"tab.activeBorderTop": "#0078a0",
+		"tab.border": "#252525",		
+		"tab.activeBackground": "#003c64",
+		"tab.activeForeground": "#f5f5f5",
+		"tab.inactiveBackground": "#3c3c3c",
+		"tab.inactiveForeground": "#c0c0c0",
+		"tab.activeBorderTop": "#fd971f",
 
+		"editorGroupHeader.tabsBackground" : "#252525",
+		"editorGroupHeader.tabsBorder": "#c0c0c0",
+		
 		"list.focusBackground": "#6b9801",
 		"list.hoverBackground": "#6b9801",
 		"list.activeSelectionBackground": "#0078c8",                        
@@ -26,8 +34,7 @@
 		"gitDecoration.conflictingResourceForeground": "#ffffff",
 		"gitDecoration.submoduleResourceForeground": "#ffffff",		
 	},
-	"tokenColors": [
-	
+	"tokenColors": [	
 		{
 			"name": "Comments",
 			"scope": [
@@ -68,6 +75,7 @@
 			"name": "Operators",
 			"scope": "keyword.operator",
 			"settings": {
+				"fontStyle": "",
 				"foreground": "#000000"
 			}
 		},
@@ -117,23 +125,23 @@
 			}
 		},
 		{
-			"name": "Variables",
-			"scope": [
-				"variable",
+			"name": "Duke, Variables",
+			"scope": [				
 				"support.variable"
 			],
 			"settings": {
+				"fontStyle": "",
 				"foreground": "#000000"
 			}
 		},
 		{
-			"name": "Functions",
+			"name": "Duke, Builtin functions",
 			"scope": [
 				"support.function.builtin"
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#009678"
+				"foreground": "#006450"
 			}
 		},
 		{
@@ -170,7 +178,7 @@
 				"constant"
 			],
 			"settings": {
-				"foreground": "#AB6526"
+				"foreground": "#782800"
 			}
 		},
 		{
@@ -201,41 +209,39 @@
 				"foreground": "#785000"
 			}
 		},
-		{
-			"name": "Punctuation",
-			"scope": "punctuation",
-			"settings": {
-				"foreground": "#000000"
-			}
-		},
-		{
-			"name": "HTML: Doctype Declaration",
+  	{
+			"name": "Duke, HTML: Doctype Declaration",
 			"scope": [
+				"meta.tag",
 				"meta.tag.sgml.doctype",
 				"meta.tag.sgml.doctype string",
 				"meta.tag.sgml.doctype entity.name.tag",
 				"meta.tag.sgml punctuation.definition.tag.html"
 			],
 			"settings": {
-				"foreground": "#AAAAAA"
+				"fontStyle": "",
+				"foreground": "#000000"
 			}
 		},
 		{
-			"name": "HTML: Tags",
-			"scope": [
-				"meta.tag",
-				"punctuation.definition.tag.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html"
+			"name": "Duke, HTML,XML: Tags",
+			"scope": [				
+				"punctuation.definition.tag",
 			],
 			"settings": {
-				"foreground": "#91B3E0"
+				"fontStyle": "",
+				"foreground": "#004080"
 			}
 		},
 		{
-			"name": "HTML: Tag Names",
-			"scope": "entity.name.tag",
+			"name": "Duke, HTML: Tag Name, JS: HTML Tag, XML: Tag",
+			"scope": [
+				"entity.name.tag",
+				"support.class.component.js",
+				"meta.tag.preprocessor.xml",
+			],
 			"settings": {
+				"fontStyle": "bold",
 				"foreground": "#780050"
 			}
 		},
@@ -246,8 +252,8 @@
 				"entity.other.attribute-name.html"
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#91B3E0"
+				"fontStyle": "",
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -257,7 +263,7 @@
 				"punctuation.definition.entity"
 			],
 			"settings": {
-				"foreground": "#AB6526"
+				"foreground": "#004080"
 			}
 		},
 		{
@@ -269,6 +275,7 @@
 				"entity.name.tag.css"
 			],
 			"settings": {
+				"fontStyle": "bold",
 				"foreground": "#780050"
 			}
 		},
@@ -290,7 +297,8 @@
 				"support.constant.property-value"
 			],
 			"settings": {
-				"foreground": "#448C27"
+				"fontStyle": "",
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -304,6 +312,7 @@
 			"name": "Markup: Changed",
 			"scope": "markup.changed",
 			"settings": {
+				"fontStyle": "",
 				"foreground": "#000000"
 			}
 		},
@@ -311,6 +320,7 @@
 			"name": "Markup: Deletion",
 			"scope": "markup.deleted",
 			"settings": {
+				"fontStyle": "",
 				"foreground": "#000000"
 			}
 		},
@@ -332,6 +342,7 @@
 			"name": "Markup: Insertion",
 			"scope": "markup.inserted",
 			"settings": {
+				"fontStyle": "",
 				"foreground": "#000000"
 			}
 		},
@@ -349,6 +360,7 @@
 				"markup.raw"
 			],
 			"settings": {
+				"fontStyle": "",
 				"foreground": "#000000"
 			}
 		},
@@ -356,6 +368,7 @@
 			"name": "Markup: Prompt",
 			"scope": "markup.prompt",
 			"settings": {
+				"fontStyle": "",
 				"foreground": "#000000"
 			}
 		},
@@ -416,7 +429,7 @@
 			"scope": "markup.inline.raw",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#AB6526"
+				"foreground": "#782800"
 			}
 		},
 		{
@@ -443,6 +456,80 @@
 			"settings": {
 				"foreground": "#434343"
 			}
-		}
+		},
+		{
+			"name":"Duke, all strings",
+			"scope": [
+				"string",
+				"string.tag",
+				"string.value",
+				"string.regexp",
+				"string.quoted.double.shell",
+				"entity.name.operator.custom-literal.string",
+				"meta.embedded.assembly",
+				"punctuation.definition.string",
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#0000ff"
+			}
+		},
+		{
+			"name":"Duke, python doc",
+			"scope": [
+				"comment",
+				"string.quoted.docstring.multi.python",
+				"punctuation.definition.string.begin.python",
+				"punctuation.definition.string.end.python"
+			],
+			"settings": {
+				"foreground": "#3f7f5f"
+			}
+		},	
+		{
+			"name": "Duke, coloring of the Java import and package identifiers",
+			"scope": [
+				"storage.modifier.import.java",
+				"variable.language.wildcard.java",
+				"storage.modifier.package.java"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#000000"
+			}
+		},	
+		{
+			"name":"Duke, annotation",
+			"scope": [
+				"punctuation.definition.annotation",
+				"storage.type.annotation"
+			],
+			"settings": {
+				"foreground": "#782800",
+				"fontStyle": "italic"
+			}
+		},				
+		{
+			"name": "Duke, attribute name in CSS like config",
+			"scope": [
+				"variable.css",
+				"variable.scss",
+				"variable.other.less",
+				"source.coffee.embedded",
+				"support.type.property-name.css",
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#004080"
+			}
+		},		
+		{
+			"name": "Duke, unit like px in CSS",
+			"scope": "keyword.other.unit",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#000000"
+			}
+		},		
 	]
 }
