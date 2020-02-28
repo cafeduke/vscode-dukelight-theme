@@ -4,6 +4,7 @@
 	"colors": {
 		"editor.background": "#f5f5f5",
 		"editor.foreground": "#000000",
+		"editor.lineHighlightBorder": "#e8e8e8",
 
 		"sideBar.background": "#003c64",
 		"sideBarSectionHeader.foreground":"#ffffff",
@@ -24,6 +25,7 @@
 		"list.hoverBackground": "#6b9801",
 		"list.activeSelectionBackground": "#0078c8",                        
 		"list.inactiveSelectionBackground": "#00538a",
+		"list.errorForeground": "#e65050",
 		"activityBar.background": "#00283c",
 
 		"gitDecoration.addedResourceForeground": "#ffffff",      
@@ -234,7 +236,7 @@
 			}
 		},
 		{
-			"name": "Duke, HTML: Tag Name, JS: HTML Tag, XML: Tag",
+			"name": "Duke, HTML tag Name, HTML Tag in JS, XML Tag",
 			"scope": [
 				"entity.name.tag",
 				"support.class.component.js",
@@ -286,7 +288,7 @@
 				"support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#AB6526"
+				"foreground": "#780050"
 			}
 		},
 		{
@@ -376,7 +378,7 @@
 			"name": "Markup: Heading",
 			"scope": "markup.heading",
 			"settings": {
-				"foreground": "#AA3731"
+				"foreground": "#780050"
 			}
 		},
 		{
@@ -411,7 +413,7 @@
 			"name": "Markup Lists",
 			"scope": "markup.list",
 			"settings": {
-				"foreground": "#780050"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -429,7 +431,7 @@
 			"scope": "markup.inline.raw",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#782800"
+				"foreground": "#0078a0"
 			}
 		},
 		{
@@ -530,6 +532,18 @@
 				"fontStyle": "",
 				"foreground": "#000000"
 			}
-		},		
+		},
+		{
+			"scope": "Duke, punctuation.definition.quote.begin.markdown",
+			"settings": {
+				"foreground": "#782800"
+			}
+		},
+		{
+			"scope": "Duke, punctuation.definition.list.begin.markdown",
+			"settings": {
+				"foreground": "#008000"
+			}
+		},				
 	]
 }

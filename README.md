@@ -1,13 +1,21 @@
-# README
-## This is the README for your extension "dukelight"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Duke Light Theme
+A light color theme inspired by Slack and Eclipse themes.
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+## Code screenshot
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+- Overview
+  - [Javascript](#javascript)
+- Code close-up 
+  - [Python](#python)
+  - [Java](#java)
 
-**Enjoy!**
+### Overview
+#### Javascript
+![CodeScreenshot](https://raw.githubusercontent.com/cafeduke/vscode-dukedark-theme/master/images/dukedark_overview.jpg)
+
+### Code close-up
+#### Python
+![CodeScreenshot](https://raw.githubusercontent.com/cafeduke/vscode-dukedark-theme/master/images/dukedark_py_closeup.jpg)
+
+#### Java
+![CodeScreenshot](https://raw.githubusercontent.com/cafeduke/vscode-dukedark-theme/master/images/dukedark_java_closeup.jpg)
