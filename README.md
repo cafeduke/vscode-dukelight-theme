@@ -11,11 +11,11 @@ A light color theme inspired by Slack and Eclipse themes.
 
 ### Overview
 #### Javascript
-![CodeScreenshot](https://raw.githubusercontent.com/cafeduke/vscode-dukedark-theme/master/images/dukedark_overview.jpg)
+![CodeScreenshot](https://raw.githubusercontent.com/cafeduke/vscode-dukelight-theme/master/images/dukelight_overview.png)
 
 ### Code close-up
 #### Python
-![CodeScreenshot](https://raw.githubusercontent.com/cafeduke/vscode-dukedark-theme/master/images/dukedark_py_closeup.jpg)
+![CodeScreenshot](https://raw.githubusercontent.com/cafeduke/vscode-dukelight-theme/master/images/dukelight_py_closeup.png)
 
 #### Java
-![CodeScreenshot](https://raw.githubusercontent.com/cafeduke/vscode-dukedark-theme/master/images/dukedark_java_closeup.jpg)
+![CodeScreenshot](https://raw.githubusercontent.com/cafeduke/vscode-dukelight-theme/master/images/dukelight_java_closeup.png)
