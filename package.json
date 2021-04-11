@@ -2,7 +2,7 @@
     "name": "dukelight",
     "displayName": "Duke Light",
     "description": "A light theme inspired by Slack and Eclipse themes",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher":"cafeduke",
     "engines": {
         "vscode": "^1.42.0"

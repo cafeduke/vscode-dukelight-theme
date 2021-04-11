@@ -1,6 +1,9 @@
 # Change Log
 Changes to the "dukelight" color theme.
 
+## 0.0.3
+- Update ReadMe with images
+
 ## 0.0.2
 - Color the instance function and operator
 - Support for typescript and angular
