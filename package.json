@@ -2,7 +2,7 @@
     "name": "dukelight",
     "displayName": "Duke Light",
     "description": "A light theme inspired by Slack and Eclipse themes",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher":"cafeduke",
     "engines": {
         "vscode": "^1.42.0"
@@ -14,19 +14,19 @@
         "duke",
         "light",
         "theme",
-        "eclipse",        
-        "slack",        
-        "blue"        
+        "eclipse",
+        "slack",
+        "blue"
     ],
     "icon": "images/dukelight_icon_128.png",
     "galleryBanner": {
       "color": "#00283c",
       "theme": "dark"
-    },   
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/cafeduke/vscode-dukelight-theme.git"
-    },    
+    },
     "contributes": {
         "themes": [
             {

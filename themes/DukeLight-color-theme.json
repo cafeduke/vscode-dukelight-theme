@@ -11,7 +11,7 @@
 		"sideBarSectionHeader.background": "#00283c",
 		"sideBar.foreground":"#DCDEDF",
 
-		"tab.border": "#252525",		
+		"tab.border": "#252525",
 		"tab.activeBackground": "#003c64",
 		"tab.activeForeground": "#f5f5f5",
 		"tab.inactiveBackground": "#3c3c3c",
@@ -20,23 +20,23 @@
 
 		"editorGroupHeader.tabsBackground" : "#252525",
 		"editorGroupHeader.tabsBorder": "#c0c0c0",
-		
+
 		"list.focusBackground": "#6b9801",
 		"list.hoverBackground": "#6b9801",
-		"list.activeSelectionBackground": "#0078c8",                        
+		"list.activeSelectionBackground": "#0078c8",
 		"list.inactiveSelectionBackground": "#00538a",
 		"list.errorForeground": "#e65050",
 		"activityBar.background": "#00283c",
 
-		"gitDecoration.addedResourceForeground": "#ffffff",      
+		"gitDecoration.addedResourceForeground": "#ffffff",
 		"gitDecoration.modifiedResourceForeground": "#ffffff",
 		"gitDecoration.deletedResourceForeground": "#ffffff",
 		"gitDecoration.untrackedResourceForeground": "#ffffff",
 		"gitDecoration.ignoredResourceForeground": "#ffffff",
 		"gitDecoration.conflictingResourceForeground": "#ffffff",
-		"gitDecoration.submoduleResourceForeground": "#ffffff",		
+		"gitDecoration.submoduleResourceForeground": "#ffffff",
 	},
-	"tokenColors": [	
+	"tokenColors": [
 		{
 			"name": "Comments",
 			"scope": [
@@ -77,14 +77,15 @@
 			"name": "Operators",
 			"scope": "keyword.operator",
 			"settings": {
-				"fontStyle": "",
-				"foreground": "#000000"
+				"fontStyle": "bold",
+				"foreground": "#a05000"
 			}
 		},
 		{
 			"name": "Keywords",
 			"scope": [
 				"keyword",
+				"keyword.operator.new",
 				"storage"
 			],
 			"settings": {
@@ -104,17 +105,6 @@
 			}
 		},
 		{
-			"name":"Duke, java storage types",
-			"scope": [
-				"storage.type.java",
-				"storage.type.generic.java",
-			],
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#0078a0"
-			}
-		},
-		{
 			"name": "Language Constants",
 			"scope": [
 				"constant.language",
@@ -126,26 +116,7 @@
 				"foreground": "#780050"
 			}
 		},
-		{
-			"name": "Duke, Variables",
-			"scope": [				
-				"support.variable"
-			],
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#000000"
-			}
-		},
-		{
-			"name": "Duke, Builtin functions",
-			"scope": [
-				"support.function.builtin"
-			],
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#006450"
-			}
-		},
+
 		{
 			"name": "Classes",
 			"scope": [
@@ -209,42 +180,6 @@
 			"scope": "constant.other.symbol",
 			"settings": {
 				"foreground": "#785000"
-			}
-		},
-  	{
-			"name": "Duke, HTML: Doctype Declaration",
-			"scope": [
-				"meta.tag",
-				"meta.tag.sgml.doctype",
-				"meta.tag.sgml.doctype string",
-				"meta.tag.sgml.doctype entity.name.tag",
-				"meta.tag.sgml punctuation.definition.tag.html"
-			],
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#000000"
-			}
-		},
-		{
-			"name": "Duke, HTML,XML: Tags",
-			"scope": [				
-				"punctuation.definition.tag",
-			],
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#004080"
-			}
-		},
-		{
-			"name": "Duke, HTML tag Name, HTML Tag in JS, XML Tag",
-			"scope": [
-				"entity.name.tag",
-				"support.class.component.js",
-				"meta.tag.preprocessor.xml",
-			],
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#780050"
 			}
 		},
 		{
@@ -460,6 +395,47 @@
 			}
 		},
 		{
+			"name":"Duke, storage types. Java,TypeScript",
+			"scope": [
+				"storage.type.java",
+				"storage.type.generic.java",
+				"entity.name.type.ts"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#0078a0"
+			}
+		},
+		{
+			"name": "Duke, Variables",
+			"scope": [
+				"support.variable"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#000000"
+			}
+		},
+  		{
+			"name": "Duke, Builtin functions",
+			"scope": [
+				"support.function.builtin"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#006450"
+			}
+		},
+  	{
+			"name": "Duke, instance function name",
+			"scope": [
+				"entity.name.function",
+			],
+			"settings": {
+				"foreground": "#0028a0"
+			}
+		},
+		{
 			"name":"Duke, all strings",
 			"scope": [
 				"string",
@@ -477,6 +453,42 @@
 			}
 		},
 		{
+			"name": "Duke, HTML,XML: Tags",
+			"scope": [
+				"punctuation.definition.tag",
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#004080"
+			}
+		},
+  	{
+			"name": "Duke, HTML: Doctype Declaration",
+			"scope": [
+				"meta.tag",
+				"meta.tag.sgml.doctype",
+				"meta.tag.sgml.doctype string",
+				"meta.tag.sgml.doctype entity.name.tag",
+				"meta.tag.sgml punctuation.definition.tag.html"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "Duke, HTML tag Name, HTML Tag in JS, XML Tag",
+			"scope": [
+				"entity.name.tag",
+				"support.class.component.js",
+				"meta.tag.preprocessor.xml",
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#780050"
+			}
+		},
+		{
 			"name":"Duke, python doc",
 			"scope": [
 				"comment",
@@ -487,7 +499,7 @@
 			"settings": {
 				"foreground": "#3f7f5f"
 			}
-		},	
+		},
 		{
 			"name": "Duke, coloring of the Java import and package identifiers",
 			"scope": [
@@ -510,7 +522,7 @@
 				"foreground": "#782800",
 				"fontStyle": "italic"
 			}
-		},				
+		},
 		{
 			"name": "Duke, attribute name in CSS like config",
 			"scope": [
@@ -524,7 +536,7 @@
 				"fontStyle": "bold",
 				"foreground": "#004080"
 			}
-		},		
+		},
 		{
 			"name": "Duke, unit like px in CSS",
 			"scope": "keyword.other.unit",
@@ -544,6 +556,24 @@
 			"settings": {
 				"foreground": "#008000"
 			}
-		},				
+		},
+		{
+			"name":"Duke, typescript binding",
+			"scope": [
+				"entity.other.ng-binding-name"
+			],
+			"settings": {
+				"foreground": "#0050a0"
+			}
+		},
+		{
+			"name":"Duke, typescript expression",
+			"scope": [
+				"expression.ng"
+			],
+			"settings": {
+				"foreground": "#0050a0"
+			}
+		},
 	]
 }

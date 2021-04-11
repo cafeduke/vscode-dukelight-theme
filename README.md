@@ -5,9 +5,13 @@ A light color theme inspired by Slack and Eclipse themes.
 
 - Overview
   - [Javascript](#javascript)
-- Code close-up 
+- Code close-up
   - [Python](#python)
   - [Java](#java)
+  - [Angular](#angular)
+  - [TypeScript](#typescript)
+  - [YAML](#yaml)
+  - [CSS](#css)
 
 ### Overview
 #### Javascript
@@ -19,3 +23,15 @@ A light color theme inspired by Slack and Eclipse themes.
 
 #### Java
 ![CodeScreenshot](https://raw.githubusercontent.com/cafeduke/vscode-dukelight-theme/master/images/dukelight_java_closeup.png)
+
+#### Angular
+![CodeScreenshot](https://raw.githubusercontent.com/cafeduke/vscode-dukelight-theme/master/images/dukelight_ang_closeup.png)
+
+#### TypeScript
+![CodeScreenshot](https://raw.githubusercontent.com/cafeduke/vscode-dukelight-theme/master/images/dukelight_ts_closeup.png)
+
+#### Yaml
+![CodeScreenshot](https://raw.githubusercontent.com/cafeduke/vscode-dukelight-theme/master/images/dukelight_yml_closeup.png)
+
+#### CSS
+![CodeScreenshot](https://raw.githubusercontent.com/cafeduke/vscode-dukelight-theme/master/images/dukelight_css_closeup.png)
